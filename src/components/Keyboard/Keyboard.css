@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.keyboard {
+  position: absolute;
+  width: 900px;
+  height: fit-content;
+  background-color: rgb(26, 26, 26);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.keyboard .panel {
+  height: 30px;
+
+  background-color: black;
+  padding: 5px 15px;
+}
+
+.keyboard .board {
+  margin: 15px 10px;
+  height: 300px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.keyboard .board .row {
+  width: 100%;
+}
+.keyboard .board .button {
+  display: inline-block;
+  cursor: pointer;
+
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
